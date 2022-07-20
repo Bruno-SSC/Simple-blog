@@ -13,7 +13,7 @@ O link para a comunidade com mais detalhes: [discord](https://discord.gg/h4yh27f
 ---
 <h3 align="center"> Screenshot 📷 </h3>
 
-<div height="590em"><img src="./CSS/assets/blog.png"></div>
+<div height="590em"><img src="./CSS/assets/Blog.png"></div>
 
 <h3 align="center"> Tecnologias utilizadas 🤖 </h3>
 
