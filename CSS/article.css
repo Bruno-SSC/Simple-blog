@@ -1,0 +1,105 @@
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lexend+Deca&display=swap");
+
+/* CSS reset */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  height: 25vh;
+  background: linear-gradient(88.27deg, #574ae8 0%, #3ea1db 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Header - section 1 */
+
+header #logos {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  font-family: "Lexend Deca", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+/* Header - section 2 */
+
+header #searchBar {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+header #searchBar input {
+  border: none;
+  padding: 0.8rem;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+
+  background-image: url("./assets/searchIcon.png");
+  background-repeat: no-repeat;
+  background-position: calc(1%);
+  padding-left: 6%;
+}
+
+header #searchBar input[type="text"]::placeholder {
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+main #article {
+  margin-top: 3rem;
+  box-shadow: inset 0px 0px 100px rgba(19, 19, 31, 0.3);
+  border-radius: 5px;
+  height: fit-content;
+  width: 95%;
+  font-family: "Lexend Deca", sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 2rem;
+  padding: 15px;
+}
+
+main #article img:hover {
+  cursor: pointer;
+}
+
+main #article img {
+  width: 1.5rem;
+  position: absolute;
+  align-self: flex-end;
+  display: inline;
+}
+
+main #article p {
+  color: #717171;
+  display: inline;
+}
+
+@media only screen and (max-width: 1000px) {
+  header #searchBar input[type="text"]::placeholder {
+    padding-left: 5%;
+  }
+}
