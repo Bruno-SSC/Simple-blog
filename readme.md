@@ -11,7 +11,7 @@ O link para a comunidade com mais detalhes: [discord](https://discord.gg/h4yh27f
 - Melhorar skills como front-end developer
 
 ---
-<h3 align="center"> Screenshot 📷 </h3>
+<h3 align="center"> Figma 📝 </h3>
 
 <div height="590em"><img src="./CSS/assets/Blog.png"></div>
 
